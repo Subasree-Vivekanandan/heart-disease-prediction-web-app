@@ -12,7 +12,7 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
-loaded_model = pickle.load(open('C:/Users/HP/Notebook files/trained_hd_model.sav','rb'))
+loaded_model = pickle.load(open('trained_hd_model.sav','rb'))
 
 def heartdisease_prediction(input_data):
 
