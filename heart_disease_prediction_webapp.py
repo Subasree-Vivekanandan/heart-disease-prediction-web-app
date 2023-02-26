@@ -36,7 +36,7 @@ def main():
     st.title("Heart disease prediction web app")
     age = st.text_input("Enter age as number")
     sex = st.text_input("Enter gender (1-Male ,0-Female")
-    cp  = st.text_input("Enter Chest paint type (0-3)")
+    cp  = st.text_input("Enter Chest pain type (0-3)")
     trestbps = st.text_input("Resting blood pressure")
     chol = st.text_input("Enter serum cholesterol in mg/dl")
     fbs = st.text_input("Enter fasting blood sugar")
